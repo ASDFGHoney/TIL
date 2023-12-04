@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - open_settings_plus (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - open_settings_plus (from `.symlinks/plugins/open_settings_plus/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  open_settings_plus:
+    :path: ".symlinks/plugins/open_settings_plus/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  open_settings_plus: 4bd848866fea2becc124581d868a6164cf768831
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.1
