@@ -18,7 +18,4 @@ class Todo {
       desc: desc,
     );
   }
-
-  @override
-  String toString() => 'Todo(id: $id, desc: $desc, completed: $completed)';
 }
