@@ -1,0 +1,27 @@
+name: flutter_custom_image_picker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  video_player: ^2.8.1
+  record: ^5.0.1
+  open_filex: ^4.3.4
+  image_editor_plus: ^1.0.5
+  mime: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
