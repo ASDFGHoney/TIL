@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'pages/counter/counter_page.dart';
+import 'pages/enum_activity/enum_activity_page.dart';
+import 'pages/enum_async_activity/enum_async_activity_page.dart';
+import 'pages/sealed_activity/sealed_activity_page.dart';
+import 'pages/sealed_async_activity/sealed_async_activity_page.dart';
 import 'widgets/custom_button.dart';
 
 void main() {
@@ -38,15 +42,33 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('NotifierProvider'),
       ),
-      body: ListView(
-        padding: const EdgeInsets.all(20),
-        shrinkWrap: true,
-        children: const [
-          CustomButton(
-            title: 'Counter',
-            child: CounterPage(),
-          ),
-        ],
+      body: Center(
+        child: ListView(
+          padding: const EdgeInsets.all(20),
+          shrinkWrap: true,
+          children: const [
+            CustomButton(
+              title: 'Counter',
+              child: CounterPage(),
+            ),
+            CustomButton(
+              title: 'Enum Activity',
+              child: EnumActivityPage(),
+            ),
+            CustomButton(
+              title: 'Sealed Activity',
+              child: SealedActivityPage(),
+            ),
+            CustomButton(
+              title: 'Enum Async Activity',
+              child: EnumAsyncActivityPage(),
+            ),
+            CustomButton(
+              title: 'Sealed Async Activity',
+              child: SealedAsyncActivityPage(),
+            ),
+          ],
+        ),
       ),
     );
   }
